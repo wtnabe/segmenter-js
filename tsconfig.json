@@ -1,0 +1,5 @@
+{
+  "target": "es2017",
+  "module": "es2017",
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "example/**/*.ts", "example/**/*.d.ts", "example/**/*.vue"]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "segmenter",
+  "version": "0.1.0",
+  "description": "transform characters to signals for 7-segment displays",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "wtnabe",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "sprintf-js": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.28",
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vuedx/typescript-plugin-vue": "^0.6.3",
+    "espower-typescript": "^10.0.0",
+    "mocha": "^8.3.0",
+    "power-assert": "^1.6.1",
+    "sleep-promise": "^9.1.0",
+    "typescript": "^4.1.5",
+    "vite": "^2.0.0-beta.69"
+  },
+  "scripts": {
+    "test": "mocha -r espower-typescript/guess test/**/*.spec.[tj]s",
+    "example": "vite -c example/vite.config.ts -d true example"
+  }
+}
